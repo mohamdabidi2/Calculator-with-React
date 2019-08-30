@@ -17,7 +17,7 @@ class App extends Component {
       x += y[i]
     }
     this.setState({
-      total: x
+      total: String(x)
     })
 
 
